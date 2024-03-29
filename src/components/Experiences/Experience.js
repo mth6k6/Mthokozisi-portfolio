@@ -1,0 +1,66 @@
+import React from 'react';
+import './Experience.css';
+
+export const Experience = () => {
+  return (
+    <div id="edu">
+        <span className='educationHead'>Education & Experience</span>
+    <div className="container">
+        <main className="row"> 
+        <section className="column">
+            <header className="tittle">
+                <h2>Education</h2>
+            </header>
+            <div className="contents">
+                <div className="box">
+                    <h4>2010-2014</h4>
+                    <h3>Matric Certificate</h3>
+                    <p>Major subject: Mathematics, Physical Sciences & Accounting</p>
+                </div>
+                <div className="box">
+                    <h4>2015-2016</h4>
+                    <h3>Higher Certificate</h3>
+                    <p>ABET Modules</p>
+                </div>
+
+                <div className="box">
+                    <h4>2017-2020</h4>
+                    <h3>National Diploma in ICT</h3>
+                    <p>Modules: Applications Development, Information System and Infomation Management..etc</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="column">
+            <header class="tittle">
+                <h2>Experience</h2>
+            </header>
+            <div className="contents">
+                <div className="box">
+                    <h4>2022-2022</h4>
+                    <h3>Engineering Assistant</h3>
+                    <p>Administrative duties</p>
+                </div>
+                <div className="box">
+                    <h4>2023-2024</h4>
+                    <h3>IT Support</h3>
+                    <p>Provide technical support to employees</p>
+                </div>
+
+                <div className="box">
+                    <h4>2024- Todate</h4>
+                    <h3>Software Developer & IT Technician</h3>
+                    <p>Software Development & Assist End-users with technical support</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    </div>
+  
+        
+    </div>
+  );
+}
+export default Experience;

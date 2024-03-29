@@ -1,0 +1,104 @@
+#edu
+{
+    min-height: calc(100vh -4rem);
+    width: 100vw;
+    max-width: 60rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.educationHead
+{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100%;
+    padding: 35px 10%;
+}
+main.row
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+.column header.tittle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+    padding: 0px 0px 20px 30px;
+
+}
+.column .contents
+{
+    padding: 0% 30px;
+    border-left: 2px solid #bababa;
+}
+.column .contents .box
+{
+    position: relative;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    background-color:rgb(40,40,40);
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+}
+.column .contents .box:hover
+{
+    box-shadow: 0px 3px 12px 0px;
+    border: 1px solid transparent;
+}
+.column .contents .box::before
+{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    right: calc(100% + 22px);
+    top: 0;
+    background-color: #11a372;
+    border: 2px solid white;
+}
+.box h4
+{
+    position: relative;
+    color: #11a372;
+}
+.box h3
+{
+    font-size: 19px;
+    padding: 10px 0px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+
+}
+.box p
+{
+    line-height: 1.2;
+    color: hsl(0, 18%, 88%);
+    font-size: 17px;
+
+}
+@media(max-width:768px) 
+{
+    main.row
+    {
+        grid-template-columns:1fr
+    }
+    
+}
