@@ -10,7 +10,7 @@ export const Introduction = () => {
    <section id="intro">
     <div className="introDisplay">
         <span className="hello">Hello,</span>
-        <span className="text"> I'm <span className="myName">Mthokozisi</span> <br/>Web Developer</span>
+        <span className="text"> I'm <span className="myName">Mthokozisi</span> <br/>Software Developer</span>
          <p className="shortDiscription">As a young recent Information and communication technology(ICT) graduate,
          I am seeking <br/>a very challenging career within a progressive organization that provides an opportunity 
          <br/>to learn new skills and capitalize my coding skills, analytical skills and abilities within IT field.</p>
