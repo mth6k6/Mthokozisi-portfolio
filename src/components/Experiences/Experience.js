@@ -26,7 +26,7 @@ export const Experience = () => {
                 <div className="box">
                     <h4>2017-2020</h4>
                     <h3>National Diploma in ICT</h3>
-                    <p>Modules: Applications Development, Information System and Infomation Management..etc</p>
+                    <p>Modules: Applications Development, Information System and Information Management..etc</p>
                 </div>
             </div>
         </section>
@@ -52,7 +52,7 @@ export const Experience = () => {
                 <div className="box">
                     <h4>2024- Todate</h4>
                     <h3>Software Developer & IT Technician</h3>
-                    <p>Software Development & Assist End-users with technical support</p>
+                    <p>Software Development & Assisting End-users with technical support</p>
                 </div>
             </div>
         </section>

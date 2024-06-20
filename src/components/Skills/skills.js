@@ -24,7 +24,7 @@ export const Skills = () => {
                     <img src={backend} alt='backend' className='skillsIconImg'/>
                     <div className="skillsIconText">
                     <h2>Back-End Development</h2>
-                        <p>Node js, MySQL,ASP.NET,Azure Portal and SQL Server</p>
+                        <p>Node js, MySQL, ASP.NET, Azure Portal and SQL Management Server</p>
                     </div>
                        
                 </div>
