@@ -8,7 +8,7 @@ export const Skills = () => {
   return (
     <section Id="skills">
         <span className="skillsHead">My Skills</span>
-        <span className="shortDis">Here are some of the skills that I have been working on for the past 2 years</span>
+        <span className="shortDis">Here are some of the skills that I have been working on for the past 12 months</span>
             <div className="skillsIcons">
                 <div className="skillsIcon">
                     <img src={frontend} alt='frontend' className='skillsIconImg'/>
@@ -24,7 +24,7 @@ export const Skills = () => {
                     <img src={backend} alt='backend' className='skillsIconImg'/>
                     <div className="skillsIconText">
                     <h2>Back-End Development</h2>
-                        <p>Node js, My SQL, .NET, MongoDB, Express Js and Ms SQL</p>
+                        <p>Node js, MySQL,ASP.NET,Azure Portal and SQL Server</p>
                     </div>
                        
                 </div>
