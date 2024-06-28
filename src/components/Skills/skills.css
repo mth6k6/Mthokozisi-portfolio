@@ -31,7 +31,9 @@
     width: 100vw;
     max-width: 100%;
     text-align: center;
+    
 }
+
 .skillsIcon
 {
     display: flex;
@@ -52,10 +54,9 @@
 
 .skillsIconText>h2 
 {
-font-size: 1rem;
-font-weight: 200vw;
-justify-content: center;
-align-items: center;
+    font-size: 1rem;
+    font-weight: 200vw;
+
 }
 
 .skillsIconText>p 
@@ -63,7 +64,6 @@ align-items: center;
 font-size: 1rem;
 font-weight: 200vw;
 display: flex;
-justify-content: center;
 }
 
 @media screen and (max-width:375px) 
