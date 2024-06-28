@@ -14,7 +14,7 @@ export const Skills = () => {
                     <img src={frontend} alt='frontend' className='skillsIconImg'/>
                     <div className="skillsIconText">
                     <h2>Front-End Development</h2>
-                        <p>React js, Angular, CSS, HTML, Boostrap and Javascript</p>
+                    <p>React js, Angular, CSS, HTML, Boostrap and Javascript</p>
                     </div>     
                 </div>
             </div>

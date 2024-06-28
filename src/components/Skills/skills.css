@@ -55,15 +55,15 @@
 .skillsIconText>h2 
 {
     font-size: 1rem;
-    font-weight: 200vw;
-    justify-content: center;
+    font-weight: 200;
+    text-align: center;
 }
 
 .skillsIconText>p 
 {
 font-size: 1rem;
-font-weight: 200vw;
-justify-content: center;
+font-weight: 200;
+text-align: center;
 }
 
 @media screen and (max-width:375px) 
