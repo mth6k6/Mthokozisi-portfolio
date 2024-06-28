@@ -22,7 +22,7 @@ export const Skills = () => {
             <div className="skillsIcons">
                 <div className="skillsIcon">
                     <img src={backend} alt='backend' className='skillsIconImg'/>
-                    <div className="skillsIconText">
+                    <div className='skillsIconText'>
                     <h2>Back-End Development</h2>
                         <p>Node js, MySQL, ASP.NET, Azure Portal and SQL Management Server</p>
                     </div>
