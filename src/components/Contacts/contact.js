@@ -22,7 +22,7 @@ export const Contacts = () => {
     <section id="contactPage">    
          <div id="experience">
                 <h1 className='contactPageTittle'>Experience</h1>
-                <p className='experienceDis'>I am still looking for the Internship that aligned with my field of study (Software Development).</p>
+                <p className='experienceDis'>I am actively searching for an internship that aligns with my academic focus in Software Development.</p>
             
             <div className='expIcons'>
                     <div className='expIconText'> 

@@ -1,5 +1,7 @@
-#introduction {
-    height: calc(100vh - 4rem);
+
+introduction
+{
+    height: calc(100vh -4rem);
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
@@ -7,20 +9,21 @@
     position: relative;
     margin-bottom: 6rem;
 }
-
-.myImageBg {
+.myImageBg
+{
     position: absolute;
-    top: 0;
-    right: 3rem;
+    top: -1rem;
+    right: 0;
     z-index: -1;
     object-fit: cover;
-    height: calc(100vh - 4rem); /* Match the height of the section */
+    height:100vh;
     padding-top: 2rem;
     padding-right: 3rem;
-    filter: drop-shadow(10px 7px 10px aquamarine);
-}
+    filter:drop-shadow(10px 7px 10px aquamarine);
 
-.introDisplay {
+}
+.introDisplay
+{
     width: 100vw;
     padding: 6rem;
     font-size: 3rem;
@@ -30,40 +33,46 @@
     justify-content: center;
 }
 
-.hello {
+.hello
+{
     font-size: 1.75rem;
     font-weight: 100;
 }
 
-.myName {
+.myName
+{
     color: aquamarine;
-}
 
-.shortDiscription {
+}
+.shortDiscription
+{
     font-size: medium;
     font-weight: 300;
     letter-spacing: 1px;
 }
-
-.btn {
+.btn
+{
     background: white;
     margin: 1rem 0;
     padding: 0.65rem 1rem;
     border: none;
     border-radius: 2rem;
     cursor: pointer;
-    filter: drop-shadow(4px 4px 5px aquamarine);
+    filter:drop-shadow(4px 4px 5px aquamarine);
+
+}
+.downloadImg
+{
+object-fit: cover;
+margin: 0 0.25rem;
+height: 1rem;
 }
 
-.downloadImg {
-    object-fit: cover;
-    margin: 0 0.25rem;
-    height: 1rem;
-}
-
-@media screen and (max-width: 370px) {
-    .myImageBg {
-        right: 0; /* Ensure the image stays within bounds on small screens */
+@media screen  and (max-width:370px) 
+{
+.myImageBg
+    {
+        right: -20vw;
         margin: 0.4rem auto;
     }
 }
