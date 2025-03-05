@@ -42,7 +42,12 @@
     padding:0.5rem 2rem;
     border-radius: 0.5rem;
     background: rgb(1, 155, 104);
+
 }
+.expIcons:last-child {
+    margin-bottom: 6rem; 
+}
+
 .expIcons:hover
 {
     box-shadow: 0px 3px 12px 0px;
