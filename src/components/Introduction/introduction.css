@@ -13,10 +13,10 @@
 {
     position: absolute;
     top: -1rem;
-    right: 2.5rem;
+    right: 1.5rem;
     z-index: -1;
     object-fit: cover;
-    height:100vh;
+    height:80vh;
     padding-top: 2rem;
     padding-right: 3rem;
     filter:drop-shadow(10px 7px 10px aquamarine);
