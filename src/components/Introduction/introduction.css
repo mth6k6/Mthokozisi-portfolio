@@ -13,7 +13,7 @@
 {
     position: absolute;
     top: -1rem;
-    right: 0;
+    right: 3 rem;
     z-index: -1;
     object-fit: cover;
     height:100vh;
