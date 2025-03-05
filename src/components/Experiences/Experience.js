@@ -39,19 +39,19 @@ export const Experience = () => {
             </header>
             <div className="contents">
                 <div className="box">
-                    <h4>2022-2022</h4>
+                    <h4>01/2022-12/2022</h4>
                     <h3>Engineering Assistant</h3>
                     <p>Administrative duties</p>
                 </div>
                 <div className="box">
-                    <h4>2023-2024</h4>
+                    <h4>09/2023-02/2024</h4>
                     <h3>IT Support</h3>
                     <p>Provide technical support to employees</p>
                 </div>
 
                 <div className="box">
-                    <h4>2024- Todate</h4>
-                    <h3>Software Developer & IT Technician</h3>
+                    <h4>03/2024-08/2024</h4>
+                    <h3>Software Developer</h3>
                     <p>Software Development & Assisting End-users with technical support</p>
                 </div>
             </div>
