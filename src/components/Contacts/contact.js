@@ -30,6 +30,13 @@ export const Contacts = () => {
                     <p>Desktop Technician  at eThekwini Municipality</p>
                     </div>
             </div>
+
+            <div className='expIcons'>
+                    <div className='expIconText'> 
+                    <h2>Software Development</h2>
+                    <p>Junior Software Developer  at Promed Technologies</p>
+                    </div>
+            </div>
         </div>
 
             <div id="contact">

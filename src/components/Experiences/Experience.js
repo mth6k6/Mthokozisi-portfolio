@@ -46,7 +46,7 @@ export const Experience = () => {
                 <div className="box">
                     <h4>09/2023-02/2024</h4>
                     <h3>IT Support</h3>
-                    <p>Provide technical support to employees</p>
+                    <p>Provide technical support to employees, Hardare Repair & Software Installation</p>
                 </div>
 
                 <div className="box">
