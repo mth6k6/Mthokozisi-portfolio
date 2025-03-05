@@ -31,15 +31,13 @@ export const Experience = () => {
             </div>
         </section>
 
-
-
         <section class="column">
             <header class="tittle">
                 <h2>Experience</h2>
             </header>
             <div className="contents">
                 <div className="box">
-                    <h4>01/2022-12/022</h4>
+                    <h4>01/2022-12/2022</h4>
                     <h3>Engineering Assistant</h3>
                     <p>Administrative duties</p>
                 </div>
