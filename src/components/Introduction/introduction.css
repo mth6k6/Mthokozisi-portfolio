@@ -72,10 +72,15 @@ height: 1rem;
 {
 .myImageBg
     {
-        
+    position: absolute;
+    top: 0vh; /* Adjust based on viewport height */
+    right: 0vw; /* Adjust based on viewport width */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* right: -5vw;
+    margin: 0.4rem auto; */
+    object-fit: cover;
 
-        right: -5vw;
-        margin: 0.4rem auto;
+        
         
     }
 }
