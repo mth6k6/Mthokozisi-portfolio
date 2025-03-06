@@ -68,10 +68,3 @@ margin: 0 0.25rem;
 height: 1rem;
 }
 
-@media screen  and (max-width:370px) 
-{
-.myImageBg
-    {
-     right: -80vw;
-    }
-}
